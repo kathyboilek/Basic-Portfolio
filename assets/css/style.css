@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 150%;
+	color: #777777;
+	background-color: #FFFFFF;
+	border-color: #dddddd;
+}
+
+header {
+	float: left;
+	width: 50%;
+	padding: 20px;
+  	margin-bottom: 20px;
+	background: #4aaaa5;
+	border-color: #cccccc;
+}
+nav{
+	float: right;
+	margin: 0;
+	padding-top: 15px;
+	background: #4aaaa5;
+	background-color: #fff;
+	border-color: #cccccc;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #000;
+}
+
+h3 {
+  font-size: 24px;
+  color: #4aaaa5;
+}
+
+a {
+  color: #d21034;
+}
+
+container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+
+
+main {
+  width: 70%;
+	clear: both;
+	}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+#footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	background-color: #666666;
+	padding: 0.01em 16px;
+	font-size: 15px;
+	line-height: 1.5;
+}
